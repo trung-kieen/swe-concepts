@@ -54,7 +54,7 @@ class CartController {
   }
 }
 
-// Boundary Class
+// Boundary Class / UI
 function App() {
   const [products, setProducts] = useState<Product[]>(mockProducts);
   const [message, setMessage] = useState<string>("");
